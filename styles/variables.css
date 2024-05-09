@@ -11,9 +11,9 @@
   --text-color: #F1B2CE;
   --subtitle-color: #000028;
   --page-color: white;
-  --buttom-outline-color: rgb(241 178 206 / 0.4);
+  --buttom-outline-color: hwb(334 0% 0% / 0.4);
   --bg-img: url(../images/cover-image-dark.png);
-  --accent-font-family: 'IBM Plex Mono', sans-serif;
+  --accent-font-family: 'IBM Plex Mono', monospace;
   --main-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --title-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --title-size-dekstop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

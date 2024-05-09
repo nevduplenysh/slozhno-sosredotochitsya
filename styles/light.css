@@ -18,27 +18,13 @@
   --subtitle-color: #353430;
   --buttom-outline-color: rgb(53 52 48 / 0.4);
   --bg-img: url(../images/cover-image-light.png);  
-
-}
-
-:root.theme-light {
-  --page-color: black;
-  --title-accent-color: #ff0070;
-  --accent-color-bg: #FF8DCB;
-  --accent-color: #353430;
-  --title-color: #FFC2E6;
-  --text-color: #353430;
-  --subtitle-color: #353430;
-  --buttom-outline-color: rgb(53 52 48 / 0.4);
-  --bg-img: url(../images/cover-image-light.png);
-}
-
-.rec {
-  visibility: hidden;
 }
 
 /* Остальные стили */
-
+.page.theme_light .rec {
+    visibility: hidden;
+  }
+  
 @media (prefers-color-scheme: light) {
   :root {
       /* Дублируем переменные светлой темы */  
@@ -53,3 +39,4 @@
     --bg-img: url(../images/cover-image-light.png);   
   }
 }
+

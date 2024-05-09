@@ -14,22 +14,8 @@
   --subtitle-color: #000028;
   --buttom-outline-color: rgb(241 178 206 / 0.4);
   --bg-img: url(../images/cover-image-dark.png);
-
-/* Остальные стили */ 
 }
 
-:root .theme-dark {
-  --page-color: white;
-  --title-accent-color: #ff0070;
-  --accent-color-bg: #ff0070;
-  --accent-color: #ff0070;
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
-  --subtitle-color: #000028;
-  --buttom-outline-color: rgb(241 178 206 / 0.4);
-  --bg-img: url(../images/cover-image-dark.png);
-}
-
-.rec {
+.page.theme_dark .rec {
   visibility: visible;
 }
