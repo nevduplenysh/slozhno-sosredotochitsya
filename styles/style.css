@@ -49,7 +49,6 @@
   background-color: transparent;
   color: var(--accent-color);
   text-transform: lowercase;
-
 }
 
 .header-title {
@@ -129,7 +128,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-
 }
 
 .main_content--title {
@@ -289,8 +287,6 @@
   .header {
   max-block-size: 768px; 
   height: 100vh;
-
-
   display: grid;
   grid-template-rows: 1fr 130px 1fr;
   }
