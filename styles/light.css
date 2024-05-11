@@ -38,5 +38,9 @@
     --buttom-outline-color: rgb(53 52 48 / 0.4);
     --bg-img: url(../images/cover-image-light.png);   
   }
+
+  .rec {
+    visibility: hidden;
+  }
 }
 
